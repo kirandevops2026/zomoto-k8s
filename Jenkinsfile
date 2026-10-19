@@ -3,10 +3,10 @@ pipeline {
 
     environment {
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account') 
-        GKE_CLUSTER_NAME = 'cluster-1' 
-        GKE_PROJECT_ID = 'gcp-devops-labs-504706' 
+        GKE_CLUSTER_NAME = 'zomoto-gke' 
+        GKE_PROJECT_ID = 'project-4c8e0a71-04b8-44b1-bc4' 
         GKE_ZONE = 'us-central1-a' 
-        GIT_REPO_URL = 'https://github.com/ganesh-devops-999/k8s-app.git' 
+        GIT_REPO_URL = 'https://github.com/kirandevops2026/zomoto-k8s.git' 
         GIT_BRANCH = 'main' 
     }
 
