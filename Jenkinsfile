@@ -5,7 +5,7 @@ pipeline {
         GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-service-account') 
         GKE_CLUSTER_NAME = 'zomoto-gke1' 
         GKE_PROJECT_ID = '	october-2026-511906' 
-        GKE_ZONE = 'us-central1-a' 
+        GKE_ZONE = 'us-central1' 
         GIT_REPO_URL = 'https://github.com/kirandevops2026/zomoto-k8s.git' 
         GIT_BRANCH = 'main' 
     }
